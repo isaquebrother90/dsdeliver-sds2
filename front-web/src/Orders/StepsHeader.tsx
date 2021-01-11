@@ -1,18 +1,18 @@
-function StepsHeader() {
-    return (
+function StepHeaders(){
+    return(
         <header className="orders-steps-container">
             <div className="orders-steps-content">
                 <h1 className="steps-title">
-                    SIGA AS <br /> ETAPAS
+                    SIGA AS <br/> ETAPAS
                 </h1>
                 <ul className="steps-items">
                     <li>
                         <span className="steps-number">1</span>
-                        Selecione os produtos e localização.
+                        Selecione os produtos e localização
                     </li>
                     <li>
                         <span className="steps-number">2</span>
-                        Depois clque em <strong>"ENVIAR PEDIDO"</strong>
+                        Depois clique em <strong>"ENVIAR PEDIDO"</strong>
                     </li>
                 </ul>
             </div>
@@ -20,4 +20,4 @@ function StepsHeader() {
     )
 }
 
-export default StepsHeader;
+export default StepHeaders;
